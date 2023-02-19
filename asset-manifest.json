@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/sportmaster/static/css/main.e5eff58c.css",
+    "main.js": "/sportmaster/static/js/main.c26ab9ab.js",
+    "static/media/sportmaster.png": "/sportmaster/static/media/sportmaster.9d6d79548d4009f9f157.png",
+    "index.html": "/sportmaster/index.html",
+    "main.e5eff58c.css.map": "/sportmaster/static/css/main.e5eff58c.css.map",
+    "main.c26ab9ab.js.map": "/sportmaster/static/js/main.c26ab9ab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5eff58c.css",
+    "static/js/main.c26ab9ab.js"
+  ]
+}
