@@ -15,7 +15,7 @@ export default function Storage() {
   let workHours = (arrayPosts.reduce((acc, arrayPost) => {
     return acc + +(Math.abs(+arrayPost.timeDifference))
   }, 0)).toFixed(2)
-  let pricePerTime = workHours * hourSalary
+  let pricePerTime = Math.round(workHours * hourSalary)
   let totalPrice = priceMP + pricePerTime
 
   let isDBCreated = (JSON.parse(localStorage.getItem('posts'))) ? true : false
