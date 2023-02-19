@@ -1,0 +1,139 @@
+.wrapper {
+    width: 100%; height: fit-content;
+    display: flex; justify-content: center; align-items: center; flex-flow: column nowrap;
+    .title {
+        margin: 15px 0;
+        h1 {
+            font-size: 32px;
+            font-weight: bold;
+            color: white;
+        }
+    }
+    .data {
+        margin-bottom: 15px;
+        input {
+            width: 360px; height: 49px;
+            border-radius: 10px;
+            font-size: 26px;
+            font-weight: bold;
+            color: black;
+            padding: 0 10px;
+            border: 0;
+        }
+    }
+    .time {
+        display: flex; justify-content: center; align-items: center; flex-flow: column nowrap;
+        margin-bottom: 15px;
+        h1 {
+            font-size: 26px;
+            font-weight: bold;
+            color: white;
+            margin-bottom: 5px;
+        }
+        .perfomance {
+            width: 360px;
+            display: flex; justify-content: space-between; align-items: center;
+            input {
+                width: 155px; height: 49px;
+                border-radius: 10px;
+                font-size: 26px;
+                font-weight: bold;
+                color: black;
+                padding: 0 10px;
+                border: 0;
+            }
+        }
+    }
+    .count__mp {
+        margin-bottom: 15px;
+        input {
+            width: 360px; height: 49px;
+            border-radius: 10px;
+            font-size: 26px;
+            font-weight: bold;
+            color: black;
+            padding: 0 10px;
+            border: 0;
+        }
+    }
+    button {
+        padding: 5px 0;
+        width: 380px;
+        background-color: #0F96C1;
+        font-size: 26px;
+        font-weight: bold;
+        color: white;
+        border: 0;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    p {
+        color: white;
+    }
+}
+
+@media (max-width: 424px) {
+    .wrapper {
+        .title {
+            h1 {
+                font-size: 26px;
+            }
+        }
+        .data {
+            input {
+                width: 340px; height: 49px;
+            }
+        }
+        .time {
+            h1 {
+                font-size: 26px;
+            }
+            .perfomance {
+                width: 340px;
+                input {
+                    width: 145px; height: 49px;
+                }
+            }
+        }
+        .count__mp {
+            input {
+                width: 340px; height: 49px;
+                font-size: 26px;
+            }
+        }
+        button {
+            width: 360px;
+            font-size: 26px;
+        }
+    }
+}
+
+@media (max-width: 374px) {
+    .wrapper {
+        .data {
+            input {
+                font-size: 22px;
+                width: 270px; height: 49px;
+            }
+        }
+        .time {
+            .perfomance {
+                width: 270px;
+                input {
+                    font-size: 22px;
+                    width: 110px; height: 49px;
+                }
+            }
+        }
+        .count__mp {
+            input {
+                width: 270px; height: 49px;
+                font-size: 22px;
+            }
+        }
+        button {
+            width: 290px;
+            font-size: 28px;
+        }
+    }
+}

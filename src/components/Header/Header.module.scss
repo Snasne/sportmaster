@@ -1,0 +1,16 @@
+.wrapper {
+    width: 100%; height: fit-content;
+    display: flex; justify-content: center; align-items: center; flex-flow: column nowrap;
+    margin-top: 15px;
+    .icon {
+        width: 100px; height: 100px;
+        background-image: url(./assets/sportmaster.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    h1 {
+        font-size: 32px;
+        color: white;
+        font-weight: bold;
+    }
+}

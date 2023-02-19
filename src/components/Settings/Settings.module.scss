@@ -1,0 +1,64 @@
+.wrapper {
+    width: 100%; height: fit-content;
+    display: flex; justify-content: center; align-items: center; flex-flow: column nowrap;
+    .title {
+        margin: 15px 0;
+        h1 {
+            font-size: 32px;
+            font-weight: bold;
+            color: white;
+        }
+    }
+    .container {
+        width: 90vw;
+        display: flex; justify-content: center; align-items: center; flex-flow: column nowrap;
+        border: 2px solid white; border-radius: 10px;
+        padding: 10px 5px; margin: 10px 0;
+        h1 {
+            font-size: 32px;
+            font-weight: bold;
+            color: white;
+            margin-bottom: 10px;
+        }
+        .container__salary {
+            margin-bottom: 10px;
+            h1 {
+                display: inline-block;
+                font-size: 32px;
+                font-weight: bold;
+                color: white;
+            }
+            input {
+                width: 70px;
+                font-size: 32px;
+                font-weight: bold;
+                color: black;
+                border-radius: 10px; border: 0;
+                margin-right: 5px; padding: 5px 10px;
+            }
+        }
+        button {
+            font-size: 32px;
+            font-weight: bold;
+            color: white;
+            border: 0; border-radius: 10px;
+            color: white;
+            background-color: #0F96C1;
+            padding: 5px 15px;
+            cursor: pointer;
+        }
+        p {
+            color: rgb(255, 255, 255);
+        }
+    }
+}
+
+@media (max-width: 424px) {
+    .wrapper {
+        .title {
+            h1 {
+                font-size: 26px;
+            }
+        }
+    }
+}

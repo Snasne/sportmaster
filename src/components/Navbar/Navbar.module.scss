@@ -1,0 +1,51 @@
+.background {
+    width: 100vw; height: 100vh;
+    position: fixed; z-index: 3;
+    background-color: rgba($color: #000000, $alpha: 0.35);
+}
+.openNavbarButton {
+    display: flex; justify-content: center; align-items: center;
+    width: 42px; height: 42px;
+    position: fixed; top: 0; right: 0; z-index: 4;
+    border: 0; border-radius: 15px;
+    margin: 10px;
+    background-color: white;
+    transition: 0.3s;
+    cursor: pointer;
+    .openNavbarButton__container {
+        width: 100%; height: 50%;
+        display: flex; justify-content: space-between; align-items: center; flex-flow: column nowrap;
+        span {
+            width: 32px; height: 5px;
+            background-color: #0F96C1;
+            border-radius: 30px;
+        }
+    }
+}
+.openedNavbar {
+    width: 270px; height: 100%;
+    display: flex; justify-content: flex-start; align-items: center; flex-flow: column nowrap;
+    position: fixed; top: 0; right: 0; z-index: 4;
+    background-color: rgba($color: #2386E7, $alpha: 1);
+    transition: 0.3s;
+    .icon {
+        width: 100px; height: 100px;
+        background-image: url(./assets/sportmaster.png); background-size: cover; 
+    }
+    h1 {
+        font-size: 32px;
+        font-weight: bold;
+        color: white;
+        margin-bottom: 15px;
+    }
+    button {
+        width: 250px; height: 40px;
+        background-color: #1551E5;
+        font-size: 28px;
+        font-weight: bold;
+        color: white;
+        border: 0; border-radius: 10px;
+        margin: 5px 0;
+        cursor: pointer;
+    }
+}
